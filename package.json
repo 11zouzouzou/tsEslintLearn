@@ -19,11 +19,5 @@
     "hooks": {
       "pre-commit": "yarn lint"
     }
-  },
-  "lint-staged": {
-    "*.{.ts,.tsx}": [
-      "eslint",
-      "git add"
-    ]
   }
 }
