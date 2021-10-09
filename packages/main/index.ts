@@ -1,7 +1,8 @@
-class app {
+class App {
   private _m: number;
   public m = '2';
-  static a: number = 3;
+  private static s_a: number = 3;
+  static A:number = 5;
   constructor() {
     this._m = 1;
   }
@@ -10,13 +11,14 @@ class app {
     return;
   }
 
-  static setA(): void {
+  static SetA(): void {
     return;
   }
 
-  private _s() {
+  private s() {
     return;
   }
 }
 
-export { app };
+
+export { App };

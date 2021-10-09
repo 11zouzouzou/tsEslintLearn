@@ -6,7 +6,7 @@
   "author": "zouzouzou11 <1096174991@qq.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint packages --ext .ts"
+    "lint": "eslint packages --max-warnings 0 --ext .ts"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
