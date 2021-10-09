@@ -10,7 +10,7 @@ module.exports = {
   rules: {
     "@typescript-eslint/no-inferrable-types": "off",
     '@typescript-eslint/naming-convention': [
-      'warn',
+      'error',
       {
         // 类名使用驼峰命名，首字母大写。例如 SceneManager
         selector: ['class'],
