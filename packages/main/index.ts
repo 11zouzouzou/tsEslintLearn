@@ -1,14 +1,22 @@
-class App {
-  private _m: number = 1;
-  public m: number = 2;
+class app {
+  private _m: number;
+  public m = '2';
   static a: number = 3;
-  constructor() {}
+  constructor() {
+    this._m = 1;
+  }
 
-  setM() {}
+  setM(): void {
+    return;
+  }
 
-  static setA() {}
-  
-  private _s() {}
+  static setA(): void {
+    return;
+  }
+
+  private _s() {
+    return;
+  }
 }
 
-export { App };
+export { app };
