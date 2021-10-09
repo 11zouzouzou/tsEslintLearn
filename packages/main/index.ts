@@ -1,6 +1,7 @@
 class app {
   private _m: number;
   public m = '2';
+  
   static a: number = 3;
   constructor() {
     this._m = 1;
