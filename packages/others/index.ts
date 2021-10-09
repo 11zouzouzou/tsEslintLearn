@@ -1,5 +1,4 @@
-class other {
-    
+class App {
 }
 
-export { other };
+export { App };

@@ -6,6 +6,7 @@
   "author": "zouzouzou11 <1096174991@qq.com>",
   "license": "MIT",
   "scripts": {
+    "install-dev":"yarn install && yarn husky install",
     "lint": "eslint packages --max-warnings 0 --ext .ts"
   },
   "devDependencies": {
