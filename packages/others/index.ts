@@ -1,3 +1,5 @@
-class other {}
+class other {
+    
+}
 
 export { other };
