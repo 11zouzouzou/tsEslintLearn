@@ -1,0 +1,3 @@
+class other {}
+
+export { other };
