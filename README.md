@@ -1,6 +1,8 @@
 # tsEslintLearn
 代码工作流规范
 
+## install
+yarn install-dev
 
 ## husky
 您可以使用 Git选项绕过pre-commit和commit-msg挂钩-n/--no-verify：
